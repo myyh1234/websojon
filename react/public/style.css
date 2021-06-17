@@ -1,0 +1,19 @@
+body{
+    margin: 30px;
+}
+
+input, button{
+    margin-top: 10px;
+}
+
+button{
+    margin-left: 10px;
+}
+
+form+div, div:not(#root)+div{
+    background-color: white;
+}
+
+form+div:hover, div:not(#root)+div:hover{
+    background-color: yellow;
+}
